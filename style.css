@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #686de0 0%, #9f68e0 100%); /* Dégradé dynamique */
+    font-family: 'Roboto', sans-serif;
+    display: flex; /* Le conteneur est un flexbox */
+    flex-direction: column; /* Les éléments enfants sont alignés verticalement */
+    align-items: center;    /* Centrage horizontal */
+    justify-content: center; /* Centrage vertical et horizontal */
+    min-height: 100vh; /* 100% de la hauteur de l'écran */
+    margin: 0; /* Suppression des marges par défaut */
+    padding: 20px; /* Ajout de marges intérieures */
+    overflow: hidden; /* Suppression des barres de défilement */
+}
+
+.container {
+    background-color: #fff; 
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 6px 10px rgba(0, 0, 0, 0.15); 
+    padding: 50px 20px; /* Ajout de marges intérieures */
+    text-align: center; 
+    max-width: 100%; 
+    width: 800px;
+    transition: transform 0.3s ease; /* Animation de transition */
+}
+
+.container:hover {
+    transform: scale(1.02); /* Zoom au survol */
+}
+
+h3 {
+    margin: 0;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    color: #333;
+    font-weight: 700;
+}
+
+.joke {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px; /* Hauteur de ligne */
+    margin: 50px auto;
+    max-width: 600px;
+    color: #444;
+    animation: fadeIn 0.5 ease-in; /* Animation de fondu */
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-family: inherit; /* Police de caractères héritée */
+    padding: 12px 24px;
+    cursor: pointer; /* Curseur de souris */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease box-shadow 0.2s ease; /* Animation de transition */
+}
+
+.btn-english {
+    background-color: #494ee4;
+}
+
+.btn-french {
+    background-color: #125e2a;
+}
+
+.btn:hover {
+    transform: translateY(-3px); /* Déplacement vers le haut */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+    transform: scale(0.98); /* Réduction de la taille */
+}
+
+.btn:focus {
+    outline: 0; /* Suppression du contour */
+}
+
+/* Animation pour l'apparition des blagues */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
