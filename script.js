@@ -80,70 +80,43 @@ const frenchJokes = [
     "Qu’est-ce qu’un enterrement réussi en France ? Quand il y a plus de monde à ton décès qu’à ton mariage !",
     "Pourquoi les Français aiment-ils les insultes créatives ? Parce que c’est la seule forme d’art où ils excellent encore aujourd’hui !",
     "Pourquoi les Français adorent les grèves ? Parce que c'est le seul moment où ils se lèvent tôt !",
-
-"Qu’est-ce qu’un Français avec un casque de réalité virtuelle ? Un touriste qui visite la France en 2050 après la montée des eaux.",
-
-"Pourquoi les Français ne jouent jamais à cache-cache ? Parce que dès qu’ils voient un problème, ils se cachent !",
-
-"Qu’est-ce qu’un Français qui réussit ? Un type qui a réussi à traverser la rue sans se faire klaxonner par un livreur Deliveroo.",
-
-"Pourquoi les Français ont-ils inventé le béret ? Pour cacher leur calvitie précoce due au stress des impôts.",
-
-"Qu’est-ce qu’un Français qui fait du sport ? Un type qui court après son chien qui a volé sa baguette.",
-
-"Pourquoi les Français ne font-ils pas confiance aux ordinateurs ? Parce que dès qu’ils entendent 'Windows', ils pensent à une grève des vitriers.",
-
-"Qu’est-ce qu’un Français qui part en vacances ? Un type qui va se plaindre du soleil ailleurs.",
-
-"Pourquoi les Français ne jouent-ils jamais au loto ? Parce qu’ils ont déjà gagné à la naissance : ils sont nés en France !",
-
-"Qu’est-ce qu’un Français qui fait la cuisine ? Un type qui met du beurre dans du beurre et qui appelle ça de la gastronomie.",
-
-"Pourquoi les Français ne vont-ils jamais dans l’espace ? Parce qu’ils ont peur de trouver un McDonald's sur Mars.",
-
-"Qu’est-ce qu’un Français qui fait du yoga ? Un type qui essaie de toucher ses pieds sans lâcher sa cigarette.",
-
-"Pourquoi les Français ne font-ils jamais de régimes ? Parce que même leur fromage a plus de volonté qu’eux.",
-
-"Qu’est-ce qu’un Français qui fait du vélo ? Un type qui roule à contresens et qui klaxonne les piétons.",
-
-"Pourquoi les Français ne jouent-ils jamais aux échecs ? Parce qu’ils préfèrent les jeux où on peut abandonner rapidement.",
-
-"Qu’est-ce qu’un Français qui part à la retraite ? Un type qui commence enfin à travailler : il devient consultant en grèves.",
-
-"Pourquoi les Français ne font-ils jamais confiance aux météorologues ? Parce qu’ils préfèrent croire à la grève des nuages.",
-
-"Qu’est-ce qu’un Français qui fait du camping ? Un type qui dort dans une tente en se plaignant que l’hôtel était trop cher.",
-
-"Pourquoi les Français ne jouent-ils jamais au poker ? Parce qu’ils ont déjà tout misé sur la retraite à 60 ans.",
-
-"Qu’est-ce qu’un Français qui fait du shopping ? Un type qui achète une baguette et qui négocie le prix.",
-
-"Pourquoi les Français ne font-ils jamais de régimes végétariens ? Parce qu’ils considèrent que la salade, c’est de la décoration.",
-
-"Qu’est-ce qu’un Français qui fait du sport extrême ? Un type qui traverse un passage piéton sans regarder.",
-
-"Pourquoi les Français ne jouent-ils jamais au Monopoly ? Parce qu’ils ont déjà perdu leur appartement à Paris.",
-
-"Qu’est-ce qu’un Français qui part en vacances à la montagne ? Un type qui skie en pyjama avec une clope au bec.",
-
-"Pourquoi les Français ne font-ils jamais confiance aux robots ? Parce qu’ils ont peur qu’ils se mettent en grève.",
-
-"Qu’est-ce qu’un Français qui fait du jardinage ? Un type qui plante des vignes dans son salon.",
-
-"Pourquoi les Français ne jouent-ils jamais au football ? Parce qu’ils ont peur de gagner et de devoir payer des impôts sur la victoire.",
-
-"Qu’est-ce qu’un Français qui fait du vélo électrique ? Un type qui roule à 10 km/h en se sentant écologiste.",
-
-"Pourquoi les Français ne font-ils jamais de régimes sans gluten ? Parce qu’ils considèrent que le pain, c’est sacré.",
-
-"Qu’est-ce qu’un Français qui part en vacances à la plage ? Un type qui se plaint que la mer est trop salée."
+    "Qu’est-ce qu’un Français avec un casque de réalité virtuelle ? Un touriste qui visite la France en 2050 après la montée des eaux.",
+    "Pourquoi les Français ne jouent jamais à cache-cache ? Parce que dès qu’ils voient un problème, ils se cachent !",
+    "Qu’est-ce qu’un Français qui réussit ? Un type qui a réussi à traverser la rue sans se faire klaxonner par un livreur Deliveroo.",
+    "Pourquoi les Français ont-ils inventé le béret ? Pour cacher leur calvitie précoce due au stress des impôts.",
+    "Qu’est-ce qu’un Français qui fait du sport ? Un type qui court après son chien qui a volé sa baguette.",
+    "Pourquoi les Français ne font-ils pas confiance aux ordinateurs ? Parce que dès qu’ils entendent 'Windows', ils pensent à une grève des vitriers.",
+    "Qu’est-ce qu’un Français qui part en vacances ? Un type qui va se plaindre du soleil ailleurs.",
+    "Pourquoi les Français ne jouent-ils jamais au loto ? Parce qu’ils ont déjà gagné à la naissance : ils sont nés en France !",
+    "Qu’est-ce qu’un Français qui fait la cuisine ? Un type qui met du beurre dans du beurre et qui appelle ça de la gastronomie.",
+    "Pourquoi les Français ne vont-ils jamais dans l’espace ? Parce qu’ils ont peur de trouver un McDonald's sur Mars.",
+    "Qu’est-ce qu’un Français qui fait du yoga ? Un type qui essaie de toucher ses pieds sans lâcher sa cigarette.",
+    "Pourquoi les Français ne font-ils jamais de régimes ? Parce que même leur fromage a plus de volonté qu’eux.",
+    "Qu’est-ce qu’un Français qui fait du vélo ? Un type qui roule à contresens et qui klaxonne les piétons.",
+    "Pourquoi les Français ne jouent-ils jamais aux échecs ? Parce qu’ils préfèrent les jeux où on peut abandonner rapidement.",
+    "Qu’est-ce qu’un Français qui part à la retraite ? Un type qui commence enfin à travailler : il devient consultant en grèves.",
+    "Pourquoi les Français ne font-ils jamais confiance aux météorologues ? Parce qu’ils préfèrent croire à la grève des nuages.",
+    "Qu’est-ce qu’un Français qui fait du camping ? Un type qui dort dans une tente en se plaignant que l’hôtel était trop cher.",
+    "Pourquoi les Français ne jouent-ils jamais au poker ? Parce qu’ils ont déjà tout misé sur la retraite à 60 ans.",
+    "Qu’est-ce qu’un Français qui fait du shopping ? Un type qui achète une baguette et qui négocie le prix.",
+    "Pourquoi les Français ne font-ils jamais de régimes végétariens ? Parce qu’ils considèrent que la salade, c’est de la décoration.",
+    "Qu’est-ce qu’un Français qui fait du sport extrême ? Un type qui traverse un passage piéton sans regarder.",
+    "Pourquoi les Français ne jouent-ils jamais au Monopoly ? Parce qu’ils ont déjà perdu leur appartement à Paris.",
+    "Qu’est-ce qu’un Français qui part en vacances à la montagne ? Un type qui skie en pyjama avec une clope au bec.",
+    "Pourquoi les Français ne font-ils jamais confiance aux robots ? Parce qu’ils ont peur qu’ils se mettent en grève.",
+    "Qu’est-ce qu’un Français qui fait du jardinage ? Un type qui plante des vignes dans son salon.",
+    "Pourquoi les Français ne jouent-ils jamais au football ? Parce qu’ils ont peur de gagner et de devoir payer des impôts sur la victoire.",
+    "Qu’est-ce qu’un Français qui fait du vélo électrique ? Un type qui roule à 10 km/h en se sentant écologiste.",
+    "Pourquoi les Français ne font-ils jamais de régimes sans gluten ? Parce qu’ils considèrent que le pain, c’est sacré.",
+    "Qu’est-ce qu’un Français qui part en vacances à la plage ? Un type qui se plaint que la mer est trop salée."
 ];
 
 // Evenement pour blagues françaises
 frenchJokeBtn.addEventListener('click', generateFrenchJoke);
 
 // Lance une blague anglaise au chargement
+jokeBtn.addEventListener('click', generateEnglishJoke)
+
 generateEnglishJoke();
 
 // Récupère une blague anglaise via une API
